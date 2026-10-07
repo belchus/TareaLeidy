@@ -11,3 +11,16 @@ class Cliente:
         print(f"Nombre: {self.nombre}")
         print(f"Apellido: {self.apellido}")
         print(f"Email: {self.email}")
+
+    def to_dict(self):
+        return {
+            "id" : self.id,
+            "nombre" : self.nombre,
+            "apellido" : self.apellido,
+            "email" : self.email
+        }
+
+    def actualizar_email(self):
+        print(f"El email actual es: {self.email}")
+        email_nuevo = input("Ingrese el nuevo email: ")
+        return email_nuevo

@@ -16,5 +16,11 @@
         "nombre": "Zapatillas",
         "precio": 45000,
         "stock": 3
+    },
+    {
+        "id": 4,
+        "nombre": "Vestido estampado",
+        "precio": 30500,
+        "stock": 7
     }
 ]
